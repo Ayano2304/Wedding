@@ -1,0 +1,12 @@
+.footer{
+    background-color: rgb(225, 98, 119);
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h5{
+    color: white;
+    text-align: center;
+}

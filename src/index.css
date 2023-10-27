@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.audio-icon-wrapper{
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    font-size: 4rem;
+    bottom: 1rem;
+    right: 0;
+    cursor: pointer;
+    /* color: white; */
+    color: rgb(255, 3, 45);
+    opacity: 0.5;
+    /* mix-blend-mode: difference; */
+    animation: berputar 4s linear infinite;
+    transform-origin: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+}
+
+@keyframes berputar {
+    from {
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(1turn);
+    }
+}
+
+/* Laptop */
+@media (max-width:992px){
+    html{
+        font-size: 75%;
+    }
+
+
+}
+
+/* Tablet */
+@media (max-width:768px){
+    html{
+        font-size: 65%;
+    }
+}
+
+/* Mobile */
+@media (max-width:576px){
+    html{
+        font-size: 70%;
+    }
+}

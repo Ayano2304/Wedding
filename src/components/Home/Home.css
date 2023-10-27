@@ -1,0 +1,32 @@
+.my-nav{
+    background-color: rgba(255, 255, 255, 0.4)!important;
+    backdrop-filter: blur(4px);
+}
+
+.home{
+    min-height: 100vh;
+    background-image: url('../../assets/img/bg-flower_2.png');
+    background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+    /* margin-top: -5.6rem; */
+}
+
+.navbar-off{
+    height: 100vh;
+}
+
+.home .couple img{
+    width: 100%;
+}
+
+.home .couple{
+    margin-top: 20px;
+}
+
+.home h2{
+    font-family: "Sacramento",cursive;
+    font-size: 5rem;
+    color: rgb(225, 98, 119);
+    font-weight: bold;
+}
