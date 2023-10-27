@@ -7,15 +7,7 @@ import Galery from './components/Galeri/Galery.jsx'
 import Footer from './components/Footer/Footer.jsx'
 import "remixicon/fonts/remixicon.css";
 export default function App() {
-  // function disableScroll() {
-  //   scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-  //   scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
 
-  //   window.onscroll = function () {
-  //     window.scrollTo(scrollTop, scrollLeft);
-  //   }
-  // }
-  // disableScroll();
   return (
     <div>
       <Hero />

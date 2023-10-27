@@ -3,7 +3,7 @@
 
 body{
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .audio-icon-wrapper{

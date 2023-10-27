@@ -1,4 +1,3 @@
-import React from 'react'
 import './Hero.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -25,5 +24,6 @@ export default function Hero() {
         </div>
       </section>
     </div>
+
   );
 }

@@ -5,11 +5,11 @@
 
 .Hero{
     min-height: 100vh;
-    background-image: url('../../assets/img/Hasil_48.jpg');
+    background-image: url('../../assets/img/Hasil_48.jpg'); 
     height: 100%;
     width: 100%;
     background-position: center;
-    background-size: cover;
+background-size: cover;
 }
 
 .Hero p{
